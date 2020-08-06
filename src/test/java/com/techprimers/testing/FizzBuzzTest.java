@@ -22,14 +22,14 @@ class FizzBuzzTest {
     @Test
     public void testFizz() {
         String fizzBuzz = fB.play(3);
-        Assertions.assertEquals(fizzBuzz, "Fizz");
+        Assertions.assertEquals(fizzBuzz, "Da");
     }
 
     @DisplayName("Play FizzBuzz with number = 5")
     @Test
     public void testBuzz() {
         String fizzBuzz = fB.play(5);
-        Assertions.assertEquals(fizzBuzz, "Buzzi");
+        Assertions.assertEquals(fizzBuzz, "Nu");
     }
 
     @DisplayName("Don't Play FizzBuzz with number = 0")
